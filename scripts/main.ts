@@ -3,7 +3,7 @@ import { capturePage } from "./lib/capturePage.ts";
 import { updateReadme } from "./lib/updateReadme.ts";
 
 const main = async () => {
-  user = z.string().parse(Deno.env.get("LEET_CODE_USER_NAME"));
+  const user = z.string().parse(Deno.env.get("LEET_CODE_USER_NAME"));
   await capturePage(user);
   await updateReadme(user);
 };
