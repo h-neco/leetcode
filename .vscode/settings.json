@@ -1,0 +1,5 @@
+{
+    "python.linting.flake8Enabled": false,
+    "deno.enable": true,
+    "deno.unstable": true
+  }
