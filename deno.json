@@ -1,5 +1,6 @@
 {
   "tasks": {
+    "cache": "deno cache --reload scripts/main.ts",
     "run": "deno run --unstable --allow-env --allow-write --allow-read --allow-run --allow-net scripts/main.ts"
   }
 }
