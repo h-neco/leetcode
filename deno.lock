@@ -131,7 +131,7 @@
     "https://deno.land/x/zod@v3.20.2/locales/en.ts": "ac7210faad6e67ec4f6dbe7062886f04db79ce91ae5ee6c9f64cbdf6221bc80e",
     "https://deno.land/x/zod@v3.20.2/mod.ts": "64e55237cb4410e17d968cd08975566059f27638ebb0b86048031b987ba251c4",
     "https://deno.land/x/zod@v3.20.2/types.ts": "82b5fbb30d1ad0ed4c212002ebf4d43f0b253921c358e205936e6ee2308914d1",
-    "https://esm.sh/jszip@3.5.0": "8cc193d885e652b18ab1e9ee037270d336504b4b9d9438c1187633457afbd0f3",
+    "https://esm.sh/jszip@3.5.0": "8f88d844b0bff3d2ad8903b527ad53aa2753eb22f6de7f73d4272410da29fd31",
     "https://esm.sh/v128/core-util-is@1.0.3/denonext/core-util-is.mjs": "f19dfe63f62278ae0c5a25bd85ffeac5bbdb099b22f005d01bbb62673505deec",
     "https://esm.sh/v128/immediate@3.0.6/denonext/immediate.mjs": "521875473fbc7a2cbf94a7475e64883a9ca4b79c19d9138edfbf31ac2eeb0efa",
     "https://esm.sh/v128/inherits@2.0.4/denonext/inherits.mjs": "8095f3d6aea060c904fb24ae50f2882779c0acbe5d56814514c8b5153f3b4b3b",
