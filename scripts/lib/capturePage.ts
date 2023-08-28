@@ -11,7 +11,7 @@ export const capturePage = async (user: string) => {
   });
 
   await Deno.mkdir("images", {
-    "recursive": true,
+    recursive: true,
   });
 
   await page.goto(`https://leetcode.com/${user}/`, {
@@ -33,7 +33,7 @@ export const capturePage = async (user: string) => {
   for (const { xpath, name } of targets) {
     const streakElement = await page.waitForXPath(xpath);
 
-    await new Promise((r) => setTimeout(r, 3000))
+    await new Promise((r) => setTimeout(r, 10000));
 
     // capture light mode
     await page.evaluate((html) => {
@@ -41,7 +41,7 @@ export const capturePage = async (user: string) => {
     }, await page.$("html"));
     await streakElement?.screenshot({ path: `images/${name}.png` });
 
-    await new Promise((r) => setTimeout(r, 3000))
+    await new Promise((r) => setTimeout(r, 10000));
 
     // capture dark mode
     await page.evaluate((html) => {
