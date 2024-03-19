@@ -6,5 +6,5 @@ esbuild.buildSync({
   minify: false,
   platform: 'node',
   target: 'es2022',
-  outfile: 'index.js',
+  outfile: 'dist/index.js',
 });
